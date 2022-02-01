@@ -1,0 +1,154 @@
+header{
+    height: 100px;
+    background-color: rgb(2, 12, 2);
+    border: 1px solid rgb(2, 14, 2);
+    color: whitesmoke;
+    text-align: center;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+#span100{
+    font-style: italic;
+    font-size: 60px;
+}
+#span200{
+    color:lightgrey;
+}
+nav{
+    text-align: right;
+    background-color:rgb(2, 12, 2);
+    border: 1px solid rgb(2, 14, 2);
+}
+nav a{
+    margin:10px;
+    text-decoration: none;
+    font-size: 10px;
+}
+nav a:hover{
+    color: whitesmoke;
+}
+a:visited{
+    color: red;
+}
+.coach{
+    border-top: 1px solid red;
+    border-bottom:1px solid red;
+}
+.slide100{
+    min-height: 200px;
+    width: 100%;
+    background-image: url(../Img/marble_stairs.jpg);
+    background-size: cover;
+    animation-name: circle;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 20s;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+@keyframes circle {
+    from{
+        background-position: top; top: 0px;
+    }
+    to {
+        background-position: bottom; bottom: 0px;
+    }
+}
+.slide200{
+text-align: center;
+color: whitesmoke;
+background-color:rgb(2, 12, 2);
+width: 49%;
+animation: slidelr 10s linear infinite;
+}
+@keyframes slidelr{
+    from{
+        transform: translate(0, 0);
+    }
+    to{
+        transform: translate(1000px, 0px);
+    }
+}
+#span300{
+border-bottom: 1px solid whitesmoke;
+}
+#span400{
+padding-right: 50px;
+
+}
+.parent100{
+    width: 100%;
+    background-color: white;
+}
+.slide500{
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    float: left;
+    
+}
+#span500{
+    color: rgb(2, 12, 2);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.slide600{
+float: left;
+width: 400px;
+border-radius: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top:20px;
+color: whitesmoke;
+background-color: rgb(2, 12, 2);
+}
+.slide700{
+    background-color: whitesmoke;
+    color: rgb(2, 12, 2);
+    padding-left: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+#span700{
+    color: rgb(2, 12, 2);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#span600{
+    text-align: right;
+}
+footer{
+    height: 50px;
+    background-color:rgb(2, 12, 2) ;
+    border: 1px solid rgb(2, 14, 2);
+    color: whitesmoke;
+    text-align: center;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-top: 20px;
+}
+#login-form-wrapper{
+    margin-top: 50px;
+    margin-bottom: 30px    
+    }
+    #login-form-wrapper form{
+       border:1px dotted rgb(2, 12, 2);
+       width:185px;
+       padding:60px 20px 10px 20px;
+       background-color:rgb(2, 12, 2);
+       margin: auto;
+       /*border-radius:10px; */
+       border-top-left-radius:30px;
+       border-bottom-right-radius: 50px;
+       box-shadow: 5px 5px 8px rgb(2, 12, 2);
+    }
+    #login-form-wrapper form div{
+        position: absolute;
+        margin-top: -55px;
+        margin-left: 50px;
+        font-weight: bold;
+        color: whitesmoke;
+    }
